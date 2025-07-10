@@ -22,11 +22,12 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="bg-primary/10 p-2 rounded-full">
-              <Heart className="h-6 w-6 text-primary" />
-            </div>
-            <span className="font-bold text-xl">MedAlert</span>
+          <Link to="/" className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/4edff798-1734-41fb-8f38-93dee23800d1.png" 
+              alt="Sanjeevan Support Logo" 
+              className="h-10 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
