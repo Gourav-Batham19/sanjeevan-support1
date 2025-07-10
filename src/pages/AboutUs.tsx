@@ -35,7 +35,7 @@ const AboutUs = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              About <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">MedAlert</span>
+              About <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Sanjeevan Support</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
               We're dedicated to empowering independent living through innovative healthcare technology, 
@@ -94,7 +94,7 @@ const AboutUs = () => {
             <h2 className="text-3xl font-bold mb-8">Our Story</h2>
             <div className="space-y-6 text-left">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                MedAlert was founded by a team of healthcare professionals and technology experts who 
+                Sanjeevan Support was founded by a team of healthcare professionals and technology experts who 
                 witnessed firsthand the challenges faced by elderly individuals living independently. 
                 Too many times, we saw situations where timely intervention could have prevented serious complications.
               </p>

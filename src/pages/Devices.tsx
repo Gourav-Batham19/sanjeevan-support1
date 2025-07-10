@@ -8,7 +8,7 @@ const Devices = () => {
   const devices = [
     {
       id: "smartwatch",
-      name: "MedAlert SmartWatch Pro",
+      name: "Sanjeevan SmartWatch Pro",
       type: "Smartwatch",
       price: "$299",
       image: "🏥⌚",
@@ -27,7 +27,7 @@ const Devices = () => {
     },
     {
       id: "smartband",
-      name: "MedAlert Fitness Band",
+      name: "Sanjeevan Fitness Band",
       type: "Smart Band",
       price: "$149",
       image: "💪📱",
@@ -44,7 +44,7 @@ const Devices = () => {
     },
     {
       id: "smartring",
-      name: "MedAlert Smart Ring",
+      name: "Sanjeevan Smart Ring",
       type: "Smart Ring",
       price: "$199",
       image: "💍✨",
@@ -182,49 +182,6 @@ const Devices = () => {
         </div>
       </section>
 
-      {/* Comparison Section */}
-      <section className="py-20 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4">Compare Our Devices</h2>
-            <p className="text-lg text-muted-foreground">Find the perfect fit for your needs and lifestyle</p>
-          </div>
-          
-          <div className="max-w-6xl mx-auto overflow-x-auto">
-            <table className="w-full bg-background rounded-lg shadow-lg">
-              <thead>
-                <tr className="border-b">
-                  <th className="text-left p-4 font-semibold">Feature</th>
-                  <th className="text-center p-4 font-semibold">SmartWatch Pro</th>
-                  <th className="text-center p-4 font-semibold">Fitness Band</th>
-                  <th className="text-center p-4 font-semibold">Smart Ring</th>
-                </tr>
-              </thead>
-              <tbody className="text-sm">
-                {[
-                  ["Emergency Button", "✅", "✅", "✅"],
-                  ["Heart Rate Monitoring", "✅", "✅", "✅"],
-                  ["Fall Detection", "✅", "❌", "❌"],
-                  ["GPS Tracking", "✅", "❌", "❌"],
-                  ["Two-way Communication", "✅", "❌", "❌"],
-                  ["Activity Tracking", "✅", "✅", "Limited"],
-                  ["Sleep Monitoring", "✅", "✅", "✅"],
-                  ["Battery Life", "7 days", "10 days", "30 days"],
-                  ["Water Resistance", "IP68", "IP67", "IP68"],
-                  ["Price", "$299", "$149", "$199"]
-                ].map(([feature, watch, band, ring]) => (
-                  <tr key={feature} className="border-b border-muted">
-                    <td className="p-4 font-medium">{feature}</td>
-                    <td className="p-4 text-center">{watch}</td>
-                    <td className="p-4 text-center">{band}</td>
-                    <td className="p-4 text-center">{ring}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="py-20 bg-primary">

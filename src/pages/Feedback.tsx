@@ -18,7 +18,7 @@ const Feedback = () => {
       name: "Margaret Johnson",
       age: 72,
       rating: 5,
-      text: "MedAlert has given me and my family such peace of mind. The medication reminders have been a lifesaver, and I love how easy it is to use.",
+      text: "Sanjeevan Support has given me and my family such peace of mind. The medication reminders have been a lifesaver, and I love how easy it is to use.",
       location: "Phoenix, AZ"
     },
     {
@@ -145,7 +145,7 @@ const Feedback = () => {
 
                 {/* Would Recommend */}
                 <div className="space-y-4">
-                  <Label className="text-base font-medium">Would you recommend MedAlert to others?</Label>
+                  <Label className="text-base font-medium">Would you recommend Sanjeevan Support to others?</Label>
                   <RadioGroup defaultValue="">
                     <div className="flex items-center space-x-2">
                       <RadioGroupItem value="definitely" id="definitely" />
@@ -170,7 +170,7 @@ const Feedback = () => {
                 <div className="flex items-center space-x-2">
                   <Checkbox id="permission" />
                   <Label htmlFor="permission" className="text-sm">
-                    I give permission for MedAlert to use my feedback as a testimonial on their website (your email will not be shared)
+                    I give permission for Sanjeevan Support to use my feedback as a testimonial on their website (your email will not be shared)
                   </Label>
                 </div>
 

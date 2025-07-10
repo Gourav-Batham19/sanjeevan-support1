@@ -11,7 +11,7 @@ const ContactUs = () => {
     {
       icon: Phone,
       title: "Emergency Hotline",
-      details: "1-800-MEDALERT (24/7)",
+      details: "1-800-SANJEEVAN (24/7)",
       description: "For immediate medical emergencies"
     },
     {
@@ -23,7 +23,7 @@ const ContactUs = () => {
     {
       icon: Mail,
       title: "Email Support",
-      details: "support@medalert.com",
+      details: "support@sanjeevansupport.com",
       description: "We respond within 2 hours"
     },
     {
@@ -158,7 +158,7 @@ const ContactUs = () => {
                     If you're experiencing a medical emergency, please call 911 immediately.
                   </p>
                   <p className="text-muted-foreground">
-                    For urgent technical support with your MedAlert device, call our emergency hotline:
+                    For urgent technical support with your Sanjeevan Support device, call our emergency hotline:
                   </p>
                   <Button variant="destructive" size="lg" className="w-full">
                     🚨 Call Emergency Hotline
